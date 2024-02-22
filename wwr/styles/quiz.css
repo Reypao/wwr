@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,100&family=Pacifico&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #1e0f0f;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: rgb(31, 63, 47);
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(45, 8, 8, 0.1);
+    border-radius: 0.5rem;
+    background-color: #8ced8e;
+    display: grid;
+}
+
+label, input, button, select, textarea {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+    margin: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(19, 91, 32);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(120, 171, 120);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}

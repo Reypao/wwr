@@ -1,0 +1,107 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+:root {
+    --primary-color: #12305a;
+    --secondary-color: #6ac6e2;
+    --accent1-color: #8ccb84;
+    --accent2-color: #dbcca5;
+    --heading-font: 'Raleway', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+    --headline-color-on-white: #2d4a73;
+    --headline-color-on-color: white;
+    --paragraph-color-on-white: #2d4a73;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #2d4a73;
+    --nav-link-color: #000000;
+    --nav-background-color: #6ac6e2;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #2d4a73;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav {
+    background-color: steelblue;
+    padding: 10px;  
+  }
+  
+  nav a {
+    color: white;
+    display: block;
+    padding: 20px;  
+  }
+  
+  h1 {
+    color: steelblue;  
+  }
+  
+  main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+  }
+  
+  p {
+    padding: 0;  
+  }
+  
+  aside{
+    width: 20em;
+    margin: 1em;
+    border: 1px solid rgba (0, 0, 0, 0.2); /* 1️⃣ */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    position: relative;
+  }
+  aside img {
+    width: 200px;
+    height: auto;
+  }
+  aside h2{
+    position: absolute;
+    top: 47px;
+    left: 90px;
+  }
+  
+  footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;  
+  }
+  
+  /* Class Selectors */
+  
+  .box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+  }
